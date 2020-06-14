@@ -103,6 +103,12 @@ button {
     color: #838383;
 }
 
+.content h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
 .content h1::first-letter,
 .content h2::first-letter {
     color: #000;
@@ -121,4 +127,9 @@ button {
 
 .content blockquote::before {
     content: '— ';
+}
+
+.content img {
+    margin: 5px;
+    border: 10px solid #e2e2e2;
 }
