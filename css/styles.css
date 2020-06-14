@@ -133,3 +133,26 @@ button {
     margin: 5px;
     border: 10px solid #e2e2e2;
 }
+
+.list-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list-wrapper li,
+.list-wrapper dt,
+.list-wrapper dd {
+    margin-top: 5px;
+}
+
+.list-wrapper dt {
+    font-weight: bold;
+}
+
+.content ul,
+.content ol,
+.content dl {
+    width: 280px;
+    font-size: 13px;
+}
