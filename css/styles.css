@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/bg.jpg");
 }
 
 a,
@@ -13,6 +15,7 @@ button {
 .container {
     width: 1000px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .btn {
@@ -53,4 +56,69 @@ button {
     background-color: #323232;
     line-height: 20px;
     color: #fff;
+}
+
+.slider {
+    height: 329px;
+    background-color: #000;
+}
+
+.main-nav {
+    background-color: #000;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.nav-list a {
+    display: block;
+    padding: 5px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    border-right: 1px solid #272727;
+}
+
+.nav-list a:hover {
+    background-color: #272727;
+}
+
+.content {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.content h1,
+.content h2 {
+    margin-top: 0;
+    font-size: 30px;
+    color: #838383;
+}
+
+.content h1::first-letter,
+.content h2::first-letter {
+    color: #000;
+}
+
+.content p {
+    line-height: 20px;
+}
+
+.content blockquote {
+    color: #8b8b8b;
+    font-size: 13px;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.content blockquote::before {
+    content: '— ';
 }
